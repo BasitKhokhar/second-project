@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: $secondary;
+}
+.heading1 h1{
+  @include important-text;
+  @include font;
+}
+.heading2 h1{
+    color: $color3;
+    text-align: center;
+    margin: $margin;
+}
+.haeding3 h1{
+    @include bordered(blue, 5px);
+}
+.para1 p{
+    @include bordered(aqua,3px);
+}
+.para2 p{
+    color: $color3;
+    font-size: $fontsize;
+}
+.image1 img{
+    width: 100%;
+}
+// button and its hover//
+.button1 button{
+    font-family: $fontfamilymain;
+    background-color:$color1 ;
+    padding: $padings ;
+    margin: $margin;
+    &:hover{
+        background-color: $color3;
+        padding: $padings;
+    }
+}
+// list and its nesting syntax   Notice that in Sass, the ul, li, selectors are nested inside the LIST selector.//
+.list ul{
+    list-style: none;
+}
+.list ul{
+    list-style: none;
+    li{
+        font-family:$fontfamilymain ;
+        background-color:$color1 ;
+        padding: $padings ;
+    }
+}
+// Many CSS properties have the same prefix, like font-family, font-size and font-weight or text-align, text-transform and text-overflow.
+// With Sass you can write them as nested properties://
+.fonts{
+  font: {
+    family:$fontfamilymain ;
+    size: $fontsize;
+    weight:$fontweight;
+    color: $color3;
+  }
+}
+
+
+.tab{
+  border: .1rem solid white;
+ position: relative;
+}
+.tab input[type="radio"]{
+ position: absolute;
+ appearance: none;
+}
+.tab input[type="radio"] + label{
+  background-color: $color1;
+  font-size:$fontsize ;
+  padding:$padings ;
+  display: inline-block;
+}
+.tab .data{
+    display: none;
+}
+.tab #checkbox1:checked ~ #checkbox11,
+.tab #checkbox2:checked ~ #checkbox22,
+.tab #checkbox3:checked ~ #checkbox33{
+    display: block;
+}
+//    BUTTONS AND MIXINS//
+.btn button{
+    @include button(.6em 1.2em, 20px, 2.2rem, blue,white)
+}
+
+
+.btn2 button{
+    @include button(.3em .7em, 50px, 1.125rem, rgb(68, 68, 150),white)
+}
+// cards//
+.cards{
+    box-sizing: border-box;
+    @include bordered (blue,.2rem);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.cards .card1{
+    box-sizing: border-box;
+    width: 15%;
+    @include for-cards();  //simple mixin and have fix value in mixin-saction , but we can change value from mixin section //
+    @include bordered (white,.1rem);  //mixin with two variables so we can use it anywhere and can give value according to our choice // 
+    @include boxshadow ( 0, 0, .5rem, .2rem white); //mixin for box shadow//
+}
+.cards .card1 img{
+    width: 100%;
+    height: 10rem;
+    @include bordered (brown,.1rem);
+    @include for-cards() ;
+}
+.cards .card1 .para1{
+    background-image: url(/images/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15rem;
+    width: 12rem;
+    height: 12rem;
+}
+.cards .card1 .para1 p{
+    font-size: 1rem;
+    border-radius: 15rem;
+    line-height: .8;
+    width: 12rem;
+    height: 12rem;
+    padding: .5rem 1rem;
+}
+//   extend CSS//
+.first-without-extend{
+    box-sizing: border-box;
+    background-color: chocolate;
+    font-size: 1.6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic
+}
+.second-extend-first{  
+    @extend .first-without-extend;
+    font-style: normal; // if we want to change property in next class like font-style(pehle italic tha or ab next div me normal) so it will override the previous style and aplly the new one.// 
+}
+.third-extend-first{
+    @extend .second-extend-first;
+}
