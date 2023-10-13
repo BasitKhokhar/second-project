@@ -229,7 +229,121 @@
     padding: 2rem 0rem !important;
   }
   .body-part1 .body-part1-container .right-side button {
-    margin: 1rem 5rem !important;
+    margin: 1rem 7rem !important;
+  }
+  .body-part2 .body-part2-container {
+    margin: 0 !important;
+  }
+  .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
+    padding: 3rem 12rem !important;
+  }
+  .body-part6 .body-part6-container {
+    margin: 0 2rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
+    transform: translateX(-1.5rem) !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
+    padding: 0 3rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex3 {
+    margin: 0 !important;
+    margin-right: 2rem !important;
+  }
+  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
+  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
+    padding: 0 3rem !important;
+  }
+  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
+  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
+    height: 20rem !important;
+  }
+  .body-part11 .body-part11-container .body-part11-flex1 {
+    flex-wrap: wrap-reverse !important;
+  }
+}
+@media only screen and (max-width: 820px) and (min-width: 415px) {
+  .top-buttons {
+    display: none;
+  }
+  .top-logo {
+    margin: 0 !important;
+    padding-left: 2rem !important;
+  }
+  .Top-bar .top-list {
+    margin-bottom: 0 !important;
+  }
+  .Top-bar .top-list ul {
+    flex-direction: row !important;
+    gap: 0.5rem !important;
+    margin: 0 !important;
+    margin-right: 2em !important;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 0.5rem !important;
+    color: black !important;
+    font-weight: 500 !important;
+    gap: 1rem !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
+    flex-direction: column !important;
+    width: auto !important;
+    transform: translatex(0.5rem) !important;
+    padding: 0 !important;
+    z-index: 1 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul {
+    flex-direction: column !important;
+    width: auto !important;
+  }
+  .Top-bar .top-logo .logo-h1 h1 {
+    font-size: 4.8rem !important;
+    margin: 0;
+    border: none;
+  }
+  .Top-bar .top-logo .logo-p p {
+    font-size: 1rem !important;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 2.3rem !important;
+    border: none;
+  }
+  .top-images .top-images-data .image-1 .top-images-container1 div h1,
+  .top-images .top-images-data .image-2 .top-images-container2 div h1 {
+    background-color: white;
+    font-size: 1.6rem !important;
+  }
+  .body-part1 .body-part1-container {
+    padding: 2rem 0rem !important;
+  }
+  .body-part2 .body-part2-container {
+    margin: 0 !important;
+  }
+  .body-part1 .body-part1-container .right-side button {
+    margin: 1rem 25rem !important;
   }
   .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
     padding: 3rem 12rem !important;
@@ -243,6 +357,13 @@
   .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
   .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
     padding: 0 3rem !important;
+  }
+  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
+  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
+    height: 20rem !important;
+  }
+  .body-part11 .body-part11-container .body-part11-flex1 {
+    flex-wrap: wrap-reverse !important;
   }
 }
 @media only screen and (max-width: 602px) {
@@ -1335,9 +1456,8 @@ body a {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  margin: 0 1rem;
+  margin: 0 5rem;
   gap: 5rem;
-  padding: 0 2rem;
   border: none;
 }
 
@@ -2174,8 +2294,10 @@ body a {
 }
 
 .Data-container,
+.business-container,
 .health-container,
 .psychology-container {
+  max-width: 136.6rem;
   width: 100%;
   margin: 0;
   box-sizing: border-box;
@@ -2358,7 +2480,7 @@ body a {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  column-gap: 5rem;
   margin: 1rem 5rem;
   border-bottom: 0.1rem solid gray;
 }
@@ -2390,8 +2512,8 @@ body a {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 63%;
-  padding: 1rem 4rem;
+  width: 60%;
+  padding: 1rem 0rem;
 }
 
 .Data-top .left-side .top-heading h1,
