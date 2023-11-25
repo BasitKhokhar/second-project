@@ -1,476 +1,12 @@
-@media only screen and (max-width: 1250px) {
-  .top-images .top-images-data .image-1, .top-images .top-images-data .image-2 {
-    width: 100% !important;
-  }
-  .top-images .top-images-data .image-2 .top-images-container2 {
-    display: none;
-  }
-  .top-images .top-images-data .image-1 .top-images-container1 {
-    transform: translate(2rem, -18rem) !important;
-  }
-}
-@media only screen and (max-width: 1239px) {
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
-    flex-direction: column !important;
-    width: auto !important;
-    transform: translatex(0.5rem) !important;
-    padding: 0 !important;
-    z-index: 1 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
-    padding: 0rem 0rem !important;
-    display: inline-block !important;
-  }
-}
-@media only screen and (max-width: 1238px) and (min-width: 831px) {
-  .Top-bar .top-buttons {
-    margin: 0 30rem !important;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .Data-top .left-side,
-  .business-top .business-left-side,
-  .health-top .health-left-side,
-  .psy-top .psy-left-side {
-    align-items: center;
-  }
-  .Data-top,
-  .business-top,
-  .health-top,
-  .psy-top {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .Data-top .left-side,
-  .business-top .business-left-side,
-  .health-top .health-left-side,
-  .psy-top .psy-left-side {
-    width: 100% !important;
-  }
-  .Data-top .left-side .top-heading h1,
-  .business-top .business-left-side .business-top-heading h1,
-  .Data-top .left-side .top-heading h1,
-  .business-top .business-left-side .business-top-heading h1 {
-    margin-left: 0rem;
-    margin-top: 5rem !important;
-    transform: translateX(-2rem);
-  }
-  .Data-top .left-side .Data-Search-bar,
-  .business-top .business-left-side .business-Search-bar,
-  .health-top .health-left-side .health-Search-bar,
-  .psy-top .psy-left-side .psy-Search-bar {
-    margin-bottom: 3rem !important;
-  }
-}
-@media only screen and (max-width: 1110px) {
-  .body-part1 .body-part1-container .left-side {
-    border-right: none !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex1 {
-    flex-wrap: wrap;
-  }
-  .top-images {
-    margin-right: 0rem !important;
-  }
-  .top-images .top-images-data {
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 !important;
-  }
-  .top-images .top-images-data .image-2,
-  .top-images .top-images-data .image-1 {
-    margin: 0 !important;
-  }
-  .body-part1 .body-part1-container, .body-part2 .body-part2-container,
-  .body-part5 .body-part5-container .tab .data .upper,
-  .body-part5 .body-part5-container .tab .data .lower,
-  .body-part6 .body-part6-container .body-part6-flex2,
-  .body-part6 .body-part6-container .body-part6-flex3,
-  .body-part8 .body-part8-container .body-part8-cards,
-  .body-part9 .body-part9-container .body-part9-flex1,
-  .body-part10 .body-part10-container .body-part10-flex1,
-  .body-part11 .body-part11-container .body-part11-flex1,
-  .body-part12 .body-part12-container .body-part12-flex1,
-  .body-part13 .body-part13-container .body-part13-cards {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .Data-flex1 .Data-flex1-container,
-  .business-flex1 .business-flex1-container,
-  .health-flex1 .health-flex1-container,
-  .psy-flex1 .psy-flex1-container {
-    flex-direction: column !important;
-    width: 90%;
-  }
-  .Data-flex1 .Data-flex1-container .Data-flex1-left img,
-  .business-flex1 .business-flex1-container .business-flex1-left img,
-  .health-flex1 .health-flex1-container .health-flex1-left img,
-  .psy-flex1 .psy-flex1-container .psy-flex1-left img {
-    padding: 0rem !important;
-  }
-  .Data-flex1 .Data-flex1-container,
-  .business-flex1 .business-flex1-container,
-  .health-flex1 .health-flex1-container,
-  .psy-flex1 .psy-flex1-container {
-    margin-left: 2rem !important;
-  }
-  .Data-flex1 .Data-flex1-container .Data-flex1-right,
-  .business-flex1 .business-flex1-container .business-flex1-right,
-  .health-flex1 .health-flex1-container .health-flex1-right,
-  .psy-flex1 .psy-flex1-container .psy-flex1-right {
-    padding: 2rem 0rem;
-  }
-  .Data-flex1 .Data-flex1-container .Data-flex1-left,
-  .business-flex1 .business-flex1-container .business-flex1-left,
-  .health-flex1 .health-flex1-container .health-flex1-left,
-  .psy-flex1 .psy-flex1-container .psy-flex1-left,
-  .Data-flex1 .Data-flex1-container .Data-flex1-right,
-  .business-flex1 .business-flex1-container .business-flex1-right,
-  .health-flex1 .health-flex1-container .health-flex1-right,
-  .psy-flex1 .psy-flex1-container .psy-flex1-right {
-    width: 100% !important;
-  }
-  .Data-flex1 .Data-flex1-container .Data-flex1-left img,
-  .business-flex1 .business-flex1-container .business-flex1-left img,
-  .health-flex1 .health-flex1-container .health-flex1-left img,
-  .psy-flex1 .psy-flex1-container .psy-flex1-left img {
-    padding: none !important;
-  }
-  .body-part2 .body-part2-container .body-part2-item1 {
-    width: 100%;
-  }
-  .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
-    pad: 3rem 40rem;
-  }
-  .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards {
-    width: 100%;
-  }
-  .body-part7 .body-part7-container .body-part7-form form .form-row1 {
-    flex-direction: column !important;
-    width: 100% !important;
-  }
-  .body-part7 .body-part7-container .body-part7-form form .form-row1 .row1-col1,
-  .body-part8 .body-part8-container .body-part8-cards .body-part8-card1 {
-    width: 100% !important;
-  }
-  .body-part13-container .body-part13-cards .body-part13-card1 {
-    width: 100% !important;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .body-part14 .body-part14-container .body-part14-flex {
-    flex-wrap: wrap;
-    width: 100% !important;
-  }
-  .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-left,
-  .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right {
-    width: 100% !important;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .top-bar-data {
-    flex-direction: column !important;
-  }
-  .top-logo {
-    margin-left: 10rem !important;
-  }
-  .Top-bar .top-list {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  .Top-bar .top-list ul {
-    flex-direction: row !important;
-    gap: 0 !important;
-    margin: 0 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .item1 {
-    font-size: 1rem !important;
-    padding: 0.5rem 0.5rem !important;
-    color: black !important;
-    font-weight: 500 !important;
-    gap: 0.5rem !important;
-  }
-  .Top-bar .top-list .top-list-data ul .item1 a {
-    font-size: 0.9rem !important;
-  }
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
-    flex-direction: column !important;
-    width: auto !important;
-    transform: translatex(0.5rem) !important;
-    padding: 0 !important;
-    z-index: 1 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
-    padding: 0rem 0rem !important;
-    display: inline-block !important;
-  }
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul {
-    flex-direction: column !important;
-    width: auto !important;
-  }
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul li a,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul li a,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul li a,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul li a,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul li a,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul li a,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul li a,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul li a,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul li a,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul li a,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul li a,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul li a,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul li a {
-    font-size: 0.8rem !important;
-  }
-  .Top-bar .top-logo .logo-h1 h1 {
-    font-size: 4.8rem !important;
-    margin: 0;
-    border: none;
-  }
-  .Top-bar .top-logo .logo-p p {
-    font-size: 1rem !important;
-    line-height: 1;
-    font-weight: 500;
-    margin-top: 2.3rem !important;
-    border: none;
-  }
-  .Top-bar .top-list .top-list-data ul .item1 a i {
-    display: none;
-  }
-  .top-images .top-images-data .image-1 .top-images-container1 div h1,
-  .top-images .top-images-data .image-2 .top-images-container2 div h1 {
-    background-color: white;
-    font-size: 1.6rem !important;
-  }
-  .body-part1 .body-part1-container {
-    padding: 2rem 0rem !important;
-  }
-  .body-part1 .body-part1-container .right-side button {
-    margin: 1rem 7rem !important;
-  }
-  .body-part2 .body-part2-container {
-    margin: 0 !important;
-  }
-  .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
-    padding: 3rem 12rem !important;
-  }
-  .body-part6 .body-part6-container {
-    margin: 0 2rem !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
-    transform: translateX(-1.5rem) !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
-    padding: 0 3rem !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex3 {
-    margin: 0 !important;
-    margin-right: 2rem !important;
-  }
-  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
-  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
-    padding: 0 3rem !important;
-  }
-  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
-  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
-    height: 20rem !important;
-  }
-  .body-part11 .body-part11-container .body-part11-flex1 {
-    flex-wrap: wrap-reverse !important;
-  }
-}
-@media only screen and (max-width: 820px) and (min-width: 415px) {
-  .top-buttons {
-    display: none;
-  }
-  .top-logo {
-    margin: 0 !important;
-    padding-left: 2rem !important;
-  }
-  .Top-bar .top-list {
-    margin-bottom: 0 !important;
-  }
-  .Top-bar .top-list ul {
-    flex-direction: row !important;
-    gap: 0.5rem !important;
-    margin: 0 !important;
-    margin-right: 2em !important;
-  }
-  .Top-bar .top-list .top-list-data ul .item1 {
-    font-size: 1.2rem !important;
-    padding: 0.5rem 0.5rem !important;
-    color: black !important;
-    font-weight: 500 !important;
-    gap: 1rem !important;
-  }
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
-    flex-direction: column !important;
-    width: auto !important;
-    transform: translatex(0.5rem) !important;
-    padding: 0rem 0.1rem !important;
-    z-index: 1 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data {
-    flex-direction: column !important;
-    width: auto !important;
-    transform: translatex(0.5rem) !important;
-    padding: 0rem 0.1rem !important;
-    z-index: 1 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
-    padding: 0rem 0rem !important;
-    display: inline-block !important;
-  }
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul,
-  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul,
-  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul {
-    flex-direction: column !important;
-    width: auto !important;
-  }
-  .Top-bar .top-logo .logo-h1 h1 {
-    font-size: 4.8rem !important;
-    margin: 0;
-    border: none;
-  }
-  .Top-bar .top-logo .logo-p p {
-    font-size: 1rem !important;
-    line-height: 1;
-    font-weight: 500;
-    margin-top: 2.3rem !important;
-    border: none;
-  }
-  .top-images .top-images-data .image-1 .top-images-container1 div h1,
-  .top-images .top-images-data .image-2 .top-images-container2 div h1 {
-    background-color: white;
-    font-size: 1.6rem !important;
-  }
-  .body-part1 .body-part1-container {
-    padding: 2rem 0rem !important;
-  }
-  .body-part2 .body-part2-container {
-    margin: 0 !important;
-  }
-  .body-part1 .body-part1-container .right-side button {
-    margin: 1rem 25rem !important;
-  }
-  .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
-    padding-left: 32rem !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
-    transform: translateX(-1.5rem) !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
-    padding: 0 3rem !important;
-  }
-  .body-part6 .body-part6-container .body-part6-flex3 {
-    margin: 0 !important;
-    margin-right: 2rem !important;
-  }
-  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
-  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
-    padding: 0 3rem !important;
-  }
-  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
-  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
-    height: 35rem !important;
-  }
-  .body-part11 .body-part11-container .body-part11-flex1 {
-    flex-wrap: wrap-reverse !important;
-  }
-}
-@media only screen and (max-width: 650px) and (min-width: 414px) {
-  .top-bar-data {
-    flex-direction: column !important;
-    display: inline-flex;
-  }
-  .Top-bar .top-list {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  .Top-bar .top-list ul {
-    flex-direction: row !important;
-    gap: 0 !important;
-    margin: 0 !important;
-  }
-  .Top-bar .top-list .top-list-data ul .item1 {
-    font-size: 1.2rem !important;
-    padding: 0.5rem 0.5rem !important;
-    color: black !important;
-    font-weight: 500 !important;
-    gap: 0.5rem !important;
-  }
-}
-@media only screen and (max-width: 602px) {
-  .top-buttons {
-    display: none;
-  }
-  .top-logo {
-    margin-left: 14rem;
-  }
-}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-* body {
+body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Source Sans 3", sans-serif;
 }
 
@@ -483,6 +19,7 @@ body a {
   max-width: 136.6rem;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .grid {
@@ -494,11 +31,11 @@ body a {
 
 .Top-bar {
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
 }
 
 .top-bar-data {
-  border: none;
+  border: 0.1rem solid brown;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -513,7 +50,7 @@ body a {
 .Top-bar .top-logo {
   display: inline-flex;
   gap: 0.2rem;
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   padding-left: 5rem;
 }
@@ -521,7 +58,7 @@ body a {
 .Top-bar .top-logo .logo-h1 h1 {
   font-size: 6.4rem;
   margin: 0;
-  border: none;
+  border: 0.1rem solid green;
 }
 
 .Top-bar .top-logo .logo-p p {
@@ -529,17 +66,17 @@ body a {
   line-height: 1;
   font-weight: 500;
   margin-top: 3.3rem;
-  border: none;
+  border: 0.1rem solid green;
 }
 
 .Top-bar .top-list {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   margin-top: 2rem;
 }
 
 .Top-bar .top-list ul {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -556,7 +93,7 @@ body a {
   display: inline-flex;
   gap: 1rem;
   background-color: white;
-  border: none;
+  border: 0.1rem solid black;
 }
 .Top-bar .top-list .top-list-data ul .item1:hover span {
   color: #4353ff;
@@ -600,7 +137,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .bachelor-tooltip:hover .bachelor-tooltip-data {
   display: flex;
@@ -614,11 +151,12 @@ body a {
   width: 130rem;
   transform: translateX(-25rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid red;
   border-radius: 1rem;
   background-color: white;
   display: none;
   padding: 3rem 0;
+  overflow-y: auto;
 }
 
 .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul {
@@ -696,7 +234,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .master-tooltip:hover .master-tooltip-data {
   display: flex;
@@ -710,7 +248,7 @@ body a {
   width: 130rem;
   transform: translateX(-37.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -810,7 +348,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .mba-tooltip:hover .mba-tooltip-data {
   display: flex;
@@ -825,7 +363,7 @@ body a {
   width: 130rem;
   transform: translateX(-48.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -882,7 +420,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .about-tooltip:hover .about-tooltip-data {
   display: flex;
@@ -897,7 +435,7 @@ body a {
   width: 130rem;
   transform: translateX(-57.3rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -913,7 +451,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .oncampus-tooltip:hover .oncampus-tooltip-data {
   display: flex;
@@ -928,7 +466,7 @@ body a {
   width: 130rem;
   transform: translateX(-67.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -950,7 +488,7 @@ body a {
 }
 
 .Top-bar .top-buttons {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   margin-top: 2.2rem;
 }
@@ -992,14 +530,14 @@ body a {
 
 .top-images {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
   padding-top: 10rem;
   padding-bottom: 0;
 }
 
 .top-images .top-images-data {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -1028,7 +566,7 @@ body a {
 
 .top-images .top-images-data .image-1 .top-images-container1 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: inline-block;
   text-align: right;
   transform: translate(47rem, -18rem);
@@ -1075,7 +613,7 @@ body a {
 
 .top-images .top-images-data .image-2 .top-images-container2 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: inline-block;
   text-align: left;
   transform: translate(2rem, -18rem);
@@ -1109,7 +647,7 @@ body a {
 
 .body-part1 .body-part1-container {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1150,14 +688,15 @@ body a {
 
 .body-part2 {
   box-sizing: border-box;
+  border: 0.1rem solid brown;
 }
 
 .body-part2 .body-part2-container {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  border: none;
+  justify-content: space-between;
+  border: 0.1rem solid brown;
   padding: 2rem 5rem;
 }
 
@@ -1165,13 +704,18 @@ body a {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border: none;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid black;
+}
+
+.body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon {
+  width: 7rem;
+  height: 7rem;
 }
 
 .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
-  width: 7rem;
-  height: 7rem;
-  padding: 3rem 15rem;
+  width: 100%;
 }
 
 .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-h1 h1 {
@@ -1234,7 +778,7 @@ body a {
   box-sizing: border-box;
   margin: 0 5rem;
   background-color: rgb(245, 244, 243);
-  border: none;
+  border: 0.1rem solid black;
   padding-bottom: 5rem;
 }
 
@@ -1242,7 +786,7 @@ body a {
   box-sizing: border-box;
   border: 0.1rem solid white;
   position: relative;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part5 .body-part5-container .tab input[type=radio] {
@@ -1286,7 +830,7 @@ body a {
   display: none;
   box-sizing: border-box;
   margin-top: 3rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .tab #checkbox1:checked ~ #checkbox11,
@@ -1417,7 +961,7 @@ body a {
   color: white;
   font-weight: 600;
   font-size: 1.6rem;
-  border: none;
+  border: 0.2rem solid #4353ff;
 }
 .body-part5 .tab .tab-button button:hover {
   opacity: 0.7;
@@ -1436,12 +980,12 @@ body a {
 
 .body-part6 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container {
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-top-heading h1 {
@@ -1456,14 +1000,14 @@ body a {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards .flex1-cards-container {
@@ -1490,7 +1034,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
   width: 100%;
   margin: 0;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
@@ -1510,7 +1054,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex2 .body-part6-flex2-left {
   width: 200%;
   margin-left: 0 10rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part6 .body-part6-container .body-part6-flex2 .body-part6-flex2-left img {
@@ -1548,7 +1092,7 @@ body a {
   flex-direction: row;
   margin: 0 5rem;
   gap: 5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards {
@@ -1587,7 +1131,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards .flex1-cards-container .flex1-cards-list ul {
   margin: 0;
   padding-left: 2.5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards .flex1-cards-container .flex1-cards-list ul li p {
@@ -1620,7 +1164,7 @@ body a {
   box-sizing: border-box;
   margin: 0 5rem;
   background-color: rgb(245, 244, 243);
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part7 .body-part7-container .body-part7-heading1 h1 {
@@ -1642,7 +1186,7 @@ body a {
 
 .body-part7 .body-part7-container .body-part7-form form .form-row1 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -1729,14 +1273,14 @@ body a {
 
 .body-part8 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   background-color: rgb(255, 220, 176);
 }
 
 .body-part8 .body-part8-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid black;
   padding: 5rem 0;
 }
 
@@ -1776,7 +1320,7 @@ body a {
   gap: 1rem;
   margin: 0rem 5rem;
   margin-bottom: 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part8 .body-part8-container .body-part8-cards .body-part8-card-footer .footer-image img {
@@ -1830,7 +1374,7 @@ body a {
 .body-part9 .body-part9-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-top-heading h1 {
@@ -1848,7 +1392,7 @@ body a {
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-left {
   width: 200%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-left img {
@@ -1857,7 +1401,7 @@ body a {
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-right {
   padding: 0 4rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-right h1 {
@@ -1891,7 +1435,7 @@ body a {
 .body-part10 .body-part10-container {
   box-sizing: border-box;
   margin: 5rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 {
@@ -1903,7 +1447,7 @@ body a {
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-left {
   width: 200%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-left video {
@@ -1915,7 +1459,7 @@ body a {
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-right {
   padding: 0 3rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-right h1 {
@@ -1950,7 +1494,7 @@ body a {
 .body-part11 .body-part11-container {
   box-sizing: border-box;
   margin: 3rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 {
@@ -1962,7 +1506,7 @@ body a {
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left {
   width: 150%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
@@ -1973,7 +1517,7 @@ body a {
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-right {
   padding: 0 3rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-right h1 {
@@ -2009,7 +1553,7 @@ body a {
 .body-part12 .body-part12-container {
   box-sizing: border-box;
   margin: 3rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 {
@@ -2021,7 +1565,7 @@ body a {
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left {
   width: 250%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img {
@@ -2031,7 +1575,7 @@ body a {
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-right {
-  border: none;
+  border: 0.1rem solid black;
   padding: 0 4rem;
 }
 
@@ -2049,12 +1593,12 @@ body a {
 .body-part13 .body-part13-container {
   box-sizing: border-box;
   margin: 6rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part13 .body-part13-container .body-part13-cards {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid blue;
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -2137,7 +1681,7 @@ body a {
 .body-part14 .body-part14-container {
   box-sizing: border-box;
   margin: 4rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
   background-color: rgb(245, 244, 243);
   border-radius: 2rem;
 }
@@ -2147,12 +1691,12 @@ body a {
   display: flex;
   flex-direction: row;
   gap: 0.1rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-left {
   width: 35%;
-  border: none;
+  border: 0.1rem solid black;
   border-radius: 2rem;
   box-sizing: border-box;
 }
@@ -2171,7 +1715,7 @@ body a {
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right {
   box-sizing: border-box;
   width: 64%;
-  border: none;
+  border: 0.1rem solid black;
   border-radius: 2rem;
   padding: 0 5rem;
 }
@@ -2204,7 +1748,7 @@ body a {
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right .body-part14-line1 .line1-data {
   display: inline-flex;
   gap: 1rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right .body-part14-line1 .line1-data span i {
@@ -2221,7 +1765,7 @@ body a {
 .body-part14-line2 .line2-data {
   display: inline-flex;
   gap: 1rem;
-  border: none;
+  border: 0.1rem solid black;
   margin: 2rem 0;
 }
 
@@ -2242,7 +1786,7 @@ body a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14-line3 .line3-data .line3-data-left {
@@ -2254,7 +1798,7 @@ body a {
   margin-top: 0.2rem;
   font-size: 1.6rem;
   padding-top: 0.4rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14-line3 .line3-data span h2 {
@@ -2266,7 +1810,7 @@ body a {
   display: inline-flex;
   gap: 1rem;
   margin-top: 0;
-  border: none;
+  border: 0.1rem solid black;
   transform: translateY(-0.4rem);
 }
 
@@ -2290,7 +1834,7 @@ body a {
 .footer-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid white;
   padding: 4rem 0;
 }
 
@@ -2306,11 +1850,11 @@ body a {
 .footer .footer-upper-part .footer-upper-item1 ul {
   list-style: none;
   padding-left: none;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .footer .footer-upper-part .footer-upper-item1 ul li {
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-upper-part .footer-upper-item1 ul li h1 {
@@ -2347,7 +1891,7 @@ body a {
   gap: 3rem;
   margin-top: 0;
   padding-top: 0;
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-lower-part .footer-lower-part-left ul li p {
@@ -2364,7 +1908,7 @@ body a {
   margin-top: 0;
   padding-top: 0;
   padding-right: 10rem;
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-lower-part .footer-lower-part-right ul li i {
@@ -2420,7 +1964,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(227, 236, 240);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .Data-top .left-side .top-heading,
@@ -2885,7 +2429,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(255, 248, 239);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .health-top .health-left-side .health-top-heading h1 {
@@ -2931,7 +2475,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(255, 240, 242);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .psy-top .psy-left-side .psy-top-heading h1 {
@@ -2957,6 +2501,469 @@ body a {
 }
 .psy-flex1 .psy-flex1-container .psy-flex1-right .psy-flex1-right-h1 h1:hover {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 1250px) {
+  .top-images .top-images-data .image-1, .top-images .top-images-data .image-2 {
+    width: 100% !important;
+  }
+  .top-images .top-images-data .image-2 .top-images-container2 {
+    display: none;
+  }
+  .top-images .top-images-data .image-1 .top-images-container1 {
+    transform: translate(2rem, -18rem) !important;
+  }
+}
+@media only screen and (max-width: 1239px) {
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
+    flex-direction: column !important;
+    width: auto !important;
+    transform: translatex(0.5rem) !important;
+    padding: 0 !important;
+    z-index: 1 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
+    padding: 0rem 0rem !important;
+    display: inline-block !important;
+  }
+}
+@media only screen and (max-width: 1238px) and (min-width: 831px) {
+  .Top-bar .top-buttons {
+    margin: 0 30rem !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Data-top .left-side,
+  .business-top .business-left-side,
+  .health-top .health-left-side,
+  .psy-top .psy-left-side {
+    align-items: center;
+  }
+  .Data-top,
+  .business-top,
+  .health-top,
+  .psy-top {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .Data-top .left-side,
+  .business-top .business-left-side,
+  .health-top .health-left-side,
+  .psy-top .psy-left-side {
+    width: 100% !important;
+  }
+  .Data-top .left-side .top-heading h1,
+  .business-top .business-left-side .business-top-heading h1,
+  .Data-top .left-side .top-heading h1,
+  .business-top .business-left-side .business-top-heading h1 {
+    margin-left: 0rem;
+    margin-top: 5rem !important;
+    transform: translateX(-2rem);
+  }
+  .Data-top .left-side .Data-Search-bar,
+  .business-top .business-left-side .business-Search-bar,
+  .health-top .health-left-side .health-Search-bar,
+  .psy-top .psy-left-side .psy-Search-bar {
+    margin-bottom: 3rem !important;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .body-part1 .body-part1-container .left-side {
+    border-right: none !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 {
+    flex-wrap: wrap;
+  }
+  .top-images {
+    margin-right: 0rem !important;
+  }
+  .top-images .top-images-data {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 !important;
+  }
+  .top-images .top-images-data .image-2,
+  .top-images .top-images-data .image-1 {
+    margin: 0 !important;
+  }
+  .body-part1 .body-part1-container, .body-part2 .body-part2-container,
+  .body-part5 .body-part5-container .tab .data .upper,
+  .body-part5 .body-part5-container .tab .data .lower,
+  .body-part6 .body-part6-container .body-part6-flex2,
+  .body-part6 .body-part6-container .body-part6-flex3,
+  .body-part8 .body-part8-container .body-part8-cards,
+  .body-part9 .body-part9-container .body-part9-flex1,
+  .body-part10 .body-part10-container .body-part10-flex1,
+  .body-part11 .body-part11-container .body-part11-flex1,
+  .body-part12 .body-part12-container .body-part12-flex1,
+  .body-part13 .body-part13-container .body-part13-cards {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .Data-flex1 .Data-flex1-container,
+  .business-flex1 .business-flex1-container,
+  .health-flex1 .health-flex1-container,
+  .psy-flex1 .psy-flex1-container {
+    flex-direction: column !important;
+    width: 90%;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-left img,
+  .business-flex1 .business-flex1-container .business-flex1-left img,
+  .health-flex1 .health-flex1-container .health-flex1-left img,
+  .psy-flex1 .psy-flex1-container .psy-flex1-left img {
+    padding: 0rem !important;
+  }
+  .Data-flex1 .Data-flex1-container,
+  .business-flex1 .business-flex1-container,
+  .health-flex1 .health-flex1-container,
+  .psy-flex1 .psy-flex1-container {
+    margin-left: 2rem !important;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-right,
+  .business-flex1 .business-flex1-container .business-flex1-right,
+  .health-flex1 .health-flex1-container .health-flex1-right,
+  .psy-flex1 .psy-flex1-container .psy-flex1-right {
+    padding: 2rem 0rem;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-left,
+  .business-flex1 .business-flex1-container .business-flex1-left,
+  .health-flex1 .health-flex1-container .health-flex1-left,
+  .psy-flex1 .psy-flex1-container .psy-flex1-left,
+  .Data-flex1 .Data-flex1-container .Data-flex1-right,
+  .business-flex1 .business-flex1-container .business-flex1-right,
+  .health-flex1 .health-flex1-container .health-flex1-right,
+  .psy-flex1 .psy-flex1-container .psy-flex1-right {
+    width: 100% !important;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-left img,
+  .business-flex1 .business-flex1-container .business-flex1-left img,
+  .health-flex1 .health-flex1-container .health-flex1-left img,
+  .psy-flex1 .psy-flex1-container .psy-flex1-left img {
+    padding: none !important;
+  }
+  .body-part2 .body-part2-container .body-part2-item1 {
+    width: 100%;
+  }
+  .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon img {
+    pad: 3rem 40rem;
+  }
+  .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards {
+    width: 100%;
+  }
+  .body-part7 .body-part7-container .body-part7-form form .form-row1 {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .body-part7 .body-part7-container .body-part7-form form .form-row1 .row1-col1,
+  .body-part8 .body-part8-container .body-part8-cards .body-part8-card1 {
+    width: 100% !important;
+  }
+  .body-part13-container .body-part13-cards .body-part13-card1 {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .body-part14 .body-part14-container .body-part14-flex {
+    flex-wrap: wrap;
+    width: 100% !important;
+  }
+  .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-left,
+  .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .top-bar-data {
+    flex-direction: column !important;
+  }
+  .top-logo {
+    margin-left: 10rem !important;
+  }
+  .Top-bar .top-list {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .Top-bar .top-list ul {
+    justify-content: space-between;
+    margin: 0 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.5rem !important;
+    color: black !important;
+    font-weight: 500 !important;
+    gap: 0.5rem !important;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 a {
+    font-size: 0.9rem !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
+    flex-direction: column !important;
+    width: auto !important;
+    transform: translatex(0.5rem) !important;
+    padding: 0 !important;
+    z-index: 1 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
+    padding: 0rem 0rem !important;
+    display: inline-block !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul {
+    flex-direction: column !important;
+    width: auto !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul li a,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul li a,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul li a,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul li a,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul li a,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul li a,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul li a,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul li a,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul li a,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul li a,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul li a,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul li a,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul li a {
+    font-size: 0.8rem !important;
+  }
+  .Top-bar .top-logo .logo-h1 h1 {
+    font-size: 4.8rem !important;
+    margin: 0;
+    border: 0.1rem solid green;
+  }
+  .Top-bar .top-logo .logo-p p {
+    font-size: 1rem !important;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 2.3rem !important;
+    border: 0.1rem solid green;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 a i {
+    display: none;
+  }
+  .top-images .top-images-data .image-1 .top-images-container1 div h1,
+  .top-images .top-images-data .image-2 .top-images-container2 div h1 {
+    background-color: white;
+    font-size: 1.6rem !important;
+  }
+  .body-part1 .body-part1-container {
+    padding: 2rem 0rem !important;
+  }
+  .body-part1 .body-part1-container .right-side button {
+    margin: 1rem 7rem !important;
+  }
+  .body-part2 .body-part2-container {
+    row-gap: 2rem;
+  }
+  .body-part6 .body-part6-container .body-part6-flex2 .body-part6-flex2-right p {
+    padding: 0rem 5rem;
+    padding-bottom: 0erm;
+  }
+  .body-part6 .body-part6-container {
+    margin: 0 2rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
+    transform: translateX(-1.5rem) !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
+    padding: 0 3rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex3 {
+    margin: 0 !important;
+    margin-right: 2rem !important;
+  }
+  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
+  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
+    padding: 0 3rem !important;
+  }
+  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
+  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
+    height: 20rem !important;
+  }
+  .body-part11 .body-part11-container .body-part11-flex1 {
+    flex-wrap: wrap-reverse !important;
+  }
+}
+@media only screen and (max-width: 820px) and (min-width: 415px) {
+  .top-buttons {
+    display: none;
+  }
+  .top-logo {
+    margin: 0 !important;
+    padding-left: 2rem !important;
+  }
+  .Top-bar .top-list {
+    margin-bottom: 0 !important;
+  }
+  .Top-bar .top-list ul {
+    flex-direction: row !important;
+    gap: 0.5rem !important;
+    margin: 0 !important;
+    margin-right: 2em !important;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 0.5rem !important;
+    color: black !important;
+    font-weight: 500 !important;
+    gap: 1rem !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
+    flex-direction: column !important;
+    width: auto !important;
+    transform: translatex(0.5rem) !important;
+    padding: 0rem 0.1rem !important;
+    z-index: 1 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data {
+    flex-direction: column !important;
+    width: auto !important;
+    transform: translatex(0.5rem) !important;
+    padding: 0rem 0.1rem !important;
+    z-index: 1 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul li a,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul li a {
+    padding: 0rem 0rem !important;
+    display: inline-block !important;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-4 ul,
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-5 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-1 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-2 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-3 ul,
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data .one-4 ul {
+    flex-direction: column !important;
+    width: auto !important;
+  }
+  .Top-bar .top-logo .logo-h1 h1 {
+    font-size: 4.8rem !important;
+    margin: 0;
+    border: 0.1rem solid green;
+  }
+  .Top-bar .top-logo .logo-p p {
+    font-size: 1rem !important;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 2.3rem !important;
+    border: 0.1rem solid green;
+  }
+  .top-images .top-images-data .image-1 .top-images-container1 div h1,
+  .top-images .top-images-data .image-2 .top-images-container2 div h1 {
+    background-color: white;
+    font-size: 1.6rem !important;
+  }
+  .body-part1 .body-part1-container {
+    padding: 2rem 0rem !important;
+  }
+  .body-part2 .body-part2-container {
+    margin: 0 !important;
+  }
+  .body-part1 .body-part1-container .right-side button {
+    margin: 1rem 25rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
+    transform: translateX(-1.5rem) !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
+    padding: 0 3rem !important;
+  }
+  .body-part6 .body-part6-container .body-part6-flex3 {
+    margin: 0 !important;
+    margin-right: 2rem !important;
+  }
+  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
+  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
+    padding: 0 3rem !important;
+  }
+  .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img,
+  .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
+    height: 35rem !important;
+  }
+  .body-part11 .body-part11-container .body-part11-flex1 {
+    flex-wrap: wrap-reverse !important;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 414px) {
+  .top-bar-data {
+    flex-direction: column !important;
+    display: inline-flex;
+  }
+  .Top-bar .top-list {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .Top-bar .top-list ul {
+    flex-direction: row !important;
+    gap: 0 !important;
+    margin: 0 !important;
+  }
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 0.5rem !important;
+    color: black !important;
+    font-weight: 500 !important;
+    gap: 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 602px) {
+  .top-buttons {
+    display: none;
+  }
+  .top-logo {
+    margin-left: 14rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
