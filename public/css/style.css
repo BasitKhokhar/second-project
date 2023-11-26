@@ -80,6 +80,7 @@ body a {
 .Top-bar #closetopbar {
   font-size: 2rem;
   margin-top: 2rem;
+  display: none;
 }
 
 .Top-bar .top-list ul {
@@ -156,7 +157,7 @@ body a {
   flex-direction: row;
   justify-content: space-evenly;
   width: 130rem;
-  transform: translateX(-25rem);
+  transform: translateX(-23rem);
   margin: 0;
   border: none;
   border-radius: 1rem;
@@ -256,13 +257,14 @@ body a {
   flex-direction: row;
   justify-content: space-evenly;
   width: 130rem;
-  transform: translateX(-37.7rem);
+  transform: translateX(-36.7rem);
   margin: 0;
   border: none;
   border-radius: 1rem;
   background-color: white;
   display: none;
   padding: 3rem 0;
+  overflow-y: auto;
 }
 
 .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
@@ -2055,17 +2057,12 @@ body a {
 .psy-top .psy-left-side .psy-Search-bar {
   display: flex;
   flex-direction: row;
-  gap: none;
-  position: relative;
-}
-
-.Data-top .left-side .Data-Search-bar span,
-.health-top .health-left-side .health-Search-bar span,
-.psy-top .psy-left-side .psy-Search-bar span {
-  margin: 0;
+  gap: 0rem;
+  border: none;
 }
 
 .Data-top .left-side .Data-Search-bar input[type=text],
+.business-top .business-left-side .business-Search-bar input[type=text],
 .health-top .health-left-side .health-Search-bar input[type=text],
 .psy-top .psy-left-side .psy-Search-bar input[type=text] {
   padding-left: 1.5rem;
@@ -2079,29 +2076,24 @@ body a {
   width: 60%;
 }
 .Data-top .left-side .Data-Search-bar input[type=text]:hover,
+.business-top .business-left-side .business-Search-bar input[type=text]:hover,
 .health-top .health-left-side .health-Search-bar input[type=text]:hover,
 .psy-top .psy-left-side .psy-Search-bar input[type=text]:hover {
   color: black;
 }
 
-.Data-top .left-side .Data-Search-bar .Data-Search-icon a,
-.health-top .health-left-side .health-Search-bar .health-Search-icon a,
-.psy-top .psy-left-side .psy-Search-bar .psy-Search-icon a {
-  margin-top: 1rem;
-  position: absolute;
-}
-
 .Data-top .left-side .Data-Search-bar .Data-Search-icon,
+.business-top .business-left-side .business-Search-bar .business-Search-icon,
 .health-top .health-left-side .health-Search-bar .health-Search-icon,
 .psy-top .psy-left-side .psy-Search-bar .psy-Search-icon {
-  transform: translate(26.3rem, -1rem);
-  position: absolute;
+  left: 23%;
+  margin-top: 0.29rem;
+  margin-left: -5rem;
 }
 
 .Data-top .left-side .Data-Search-bar .Data-Search-icon i,
 .health-top .health-left-side .health-Search-bar .health-Search-icon i,
 .psy-top .psy-left-side .psy-Search-bar .psy-Search-icon i {
-  position: absolute;
   font-size: 2.7rem;
   padding: 0.3rem 0.8rem;
   border-radius: 0 1rem 1rem 0;
@@ -2411,32 +2403,8 @@ body a {
   margin: 0;
 }
 
-.business-top .business-left-side .business-Search-bar input[type=text] {
-  padding-left: 1.5rem;
-  padding-right: 10rem;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-  border-radius: 1rem;
-  font-size: 1.6rem;
-  color: lightgray;
-  width: 60%;
-}
-.business-top .business-left-side .business-Search-bar input[type=text]:hover {
-  color: black;
-}
-.business-top .business-left-side .business-Search-bar input[type=text]::after .business-Search-icon {
-  content: "";
-  top: 0;
-  right: 0;
-  transform: translateX(9rem);
-}
-
 .business-top .business-left-side .business-Search-bar .business-Search-icon a {
   margin-top: 1rem;
-}
-
-.business-top .business-left-side .business-Search-bar .business-Search-icon {
-  transform: translate(-4.4rem, 0.3rem);
 }
 
 .business-top .business-left-side .business-Search-bar .business-Search-icon i {
@@ -2589,7 +2557,7 @@ body a {
   }
   .Top-bar .top-list {
     display: none;
-    transform: translate(-12rem, 0rem);
+    transform: translate(-13rem, 0rem);
     flex-direction: row;
     width: 150%;
     background-color: white;
@@ -2602,12 +2570,119 @@ body a {
     position: fixed;
     top: 2.5rem;
     right: 0rem;
+    z-index: 1;
   }
   .Top-bar #closetopbar {
     display: inline;
     position: fixed;
     top: 1rem;
     right: -3rem;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data {
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transform: translate(12rem, -4.4rem);
+    z-index: 999 !important;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    background-color: white;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data {
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transform: translate(12rem, -9.8rem);
+    z-index: 5;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data {
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transform: translate(11rem, -15rem);
+    z-index: 5;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .mba-tooltip .mba-tooltip-data::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data {
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transform: translate(12rem, -20.4rem);
+    z-index: 5;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data {
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transform: translate(12rem, -25.7rem);
+    z-index: 5;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1rem;
+  }
+  .Top-bar .top-list .top-list-data ul .oncampus-tooltip .oncampus-tooltip-data::-webkit-scrollbar-thumb:hover {
+    background-color: black;
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -2631,6 +2706,59 @@ body a {
   .body-part5 .body-part5-container .tab .data .upper,
   .body-part5 .body-part5-container .tab .data .lower {
     flex-direction: column;
+    width: 100%;
+  }
+  .Data-top,
+  .business-top,
+  .health-top,
+  .psy-top {
+    flex-direction: column;
+  }
+  .Data-top .left-side,
+  .business-top .business-left-side,
+  .health-top .health-left-side,
+  .psy-top .psy-left-side {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+  .Data-top .left-side .top-heading h1,
+  .business-top .business-left-side .business-top-heading h1,
+  .health-top .health-left-side .health-top-heading h1,
+  .psy-top .psy-left-side .psy-top-heading h1 {
+    margin-top: 5rem;
+  }
+  .Data-para1 p,
+  .health-para1 p,
+  .psy-para1 p {
+    padding: 2rem 5rem;
+  }
+  .Data-flex1 .Data-flex1-container,
+  .business-flex1 .business-flex1-container,
+  .health-flex1 .health-flex1-container,
+  .psy-flex1 .psy-flex1-container {
+    flex-direction: column;
+    column-gap: 5rem;
+    margin: 1rem 5rem;
+    border-bottom: 0.1rem solid gray;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-left,
+  .business-flex1 .business-flex1-container .business-flex1-left,
+  .health-flex1 .health-flex1-container .health-flex1-left,
+  .psy-flex1 .psy-flex1-container .psy-flex1-left {
+    width: 100%;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-left img,
+  .business-flex1 .business-flex1-container .business-flex1-left img,
+  .health-flex1 .health-flex1-container .health-flex1-left img,
+  .psy-flex1 .psy-flex1-container .psy-flex1-left img {
+    padding: 0rem;
+  }
+  .Data-flex1 .Data-flex1-container .Data-flex1-right,
+  .business-flex1 .business-flex1-container .business-flex1-right,
+  .health-flex1 .health-flex1-container .health-flex1-right,
+  .psy-flex1 .psy-flex1-container .psy-flex1-right {
     width: 100%;
   }
 }
@@ -2731,6 +2859,29 @@ body a {
   }
   .body-part1 .body-part1-container {
     padding: 2rem 2rem;
+  }
+  .Data-para1 p,
+  .health-para1 p,
+  .psy-para1 p {
+    padding: 2rem 2rem;
+  }
+  .Data-box1 .Data-box1-container {
+    margin: 0 2rem;
+    padding: 1rem 0;
+  }
+  .Data-box1 .Data-box1-container .Data-box1-container-h1 h1,
+  .Data-box1 .Data-box1-container .Data-box1-container-p1 p {
+    padding: 0 2rem;
+  }
+  .Data-box2 {
+    padding: 1rem 2rem;
+  }
+  .Data-flex1 .Data-flex1-container,
+  .business-flex1 .business-flex1-container,
+  .health-flex1 .health-flex1-container,
+  .psy-flex1 .psy-flex1-container {
+    column-gap: 5rem;
+    margin: 1rem 2rem;
   }
 }
 @media only screen and (max-width: 420px) {

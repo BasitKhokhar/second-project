@@ -47,7 +47,6 @@ body a{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    // flex-wrap: wrap;
     position: fixed;
     z-index: 1;
     background-color: white;
@@ -83,8 +82,7 @@ body a{
 .Top-bar  #closetopbar{
     font-size: 2rem;
     margin-top: 2rem;
-    // display: none;
-
+    display: none;
 }
 .Top-bar .top-list ul{
     @include  primaryborder (black,.1rem);
@@ -160,7 +158,7 @@ body a{
     justify-content: space-evenly;
     width: 130rem;
     // height: 60vh;
-    transform: translateX(-25rem);
+    transform: translateX(-23rem);
     margin: 0;
     @include  primaryborder (red,.1rem);
     border-radius: 1rem;
@@ -267,13 +265,14 @@ body a{
     flex-direction: row;
     justify-content: space-evenly;
     width: 130rem;
-    transform: translateX(-37.7rem);
+    transform: translateX(-36.7rem);
     margin: 0;
     @include  primaryborder (aqua,.1rem);
     border-radius: 1rem;
     background-color: white;
     display: none;
     padding: 3rem 0;
+    overflow-y: auto;
 }
 .Top-bar .top-list .top-list-data ul .master-tooltip .master-tooltip-data .one-1 ul,
 .Top-bar .top-list .top-list-data ul .about-tooltip .about-tooltip-data .one-1 ul,
@@ -1867,18 +1866,20 @@ background-color: black;
 .psy-top .psy-left-side .psy-Search-bar{
    display:flex;
    flex-direction: row; 
-   gap: none;
-   position: relative;
+   gap: 0rem;
+   @include  primaryborder (brown,.1rem);
+ 
 }
 .Data-top .left-side .Data-Search-bar span,
 .health-top .health-left-side .health-Search-bar span,
 .psy-top .psy-left-side .psy-Search-bar span{
-    margin: 0;
+
 }
-.Data-top .left-side  .Data-Search-bar input[type=text],
-.health-top .health-left-side  .health-Search-bar input[type=text],
-.psy-top .psy-left-side  .psy-Search-bar input[type=text]{
-    // position: absolute;
+.Data-top .left-side .Data-Search-bar input[type=text],
+.business-top .business-left-side .business-Search-bar input[type=text],
+.health-top .health-left-side .health-Search-bar input[type=text],
+.psy-top .psy-left-side .psy-Search-bar input[type=text]{
+    // position: relative;
     padding-left: 1.5rem;
     padding-right: 10rem;
     padding-top: 1.2rem;
@@ -1890,50 +1891,41 @@ background-color: black;
     width: 60%;
     &:hover{
         color: black;
-       }
-    // &::after{
-    //  content: '';
-    //  top: 0;
-    //  right: 0;
-    //  transform: translateX(9rem);
-    //  }
+    }
 }
-.Data-top .left-side  .Data-Search-bar .Data-Search-icon a,
-.health-top .health-left-side  .health-Search-bar .health-Search-icon a,
-.psy-top .psy-left-side  .psy-Search-bar .psy-Search-icon a{
-    margin-top: 1rem;
-    position: absolute;
+.Data-top .left-side .Data-Search-bar .Data-Search-icon,
+.business-top .business-left-side .business-Search-bar .business-Search-icon,
+.health-top .health-left-side .health-Search-bar .health-Search-icon,
+.psy-top .psy-left-side .psy-Search-bar .psy-Search-icon{
+   left: 23%;
+   margin-top: .29rem;
+   margin-left: -5rem;
 }
-.Data-top .left-side  .Data-Search-bar .Data-Search-icon,
-.health-top .health-left-side  .health-Search-bar .health-Search-icon,
-.psy-top .psy-left-side  .psy-Search-bar .psy-Search-icon{
-    transform: translate( 26.3rem ,-1rem);
-    position: absolute;
+.Data-top .left-side .Data-Search-bar .Data-Search-icon a,
+.health-top .health-left-side .health-Search-bar .health-Search-icon a,
+.psy-top .psy-left-side .psy-Search-bar .psy-Search-icon a{
+  
 }
-.Data-top .left-side  .Data-Search-bar .Data-Search-icon i,
+.Data-top .left-side .Data-Search-bar .Data-Search-icon i,
 .health-top .health-left-side .health-Search-bar .health-Search-icon i,
 .psy-top .psy-left-side .psy-Search-bar .psy-Search-icon i{
-   position: absolute;
-    font-size: 2.7rem;
+   font-size: 2.7rem;
    padding: .3rem .8rem;
    border-radius: 0 1rem 1rem 0;
    color: white;
    background-color: #4353ff;
-   margin-bottom: 0;
-   
+   margin-bottom: 0; 
 }
 .Data-top .right-side,
 .health-top .health-right-side,
 .psy-top .psy-right-side{
     background-color: rgb(217, 235, 241);
- 
 }
 .Data-top .right-side img,
 .health-top .health-right-side img,
 .psy-top .psy-right-side img{
     width: 100%;
     border-radius: .5rem;
-    // padding: 1rem;
 }
 .Data-para1 p,
 .health-para1 p,
@@ -1987,7 +1979,6 @@ background-color: black;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    // flex-wrap: wrap;
     column-gap: 5rem;
     margin: 1rem 5rem;
     border-bottom: .1rem solid gray;
@@ -2191,30 +2182,8 @@ background-color: black;
 .business-top .business-left-side  .business-Search-bar span{
     margin: 0;
 }
-.business-top .business-left-side  .business-Search-bar input[type=text]{
-    padding-left: 1.5rem;
-    padding-right: 10rem;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    border-radius: 1rem;
-    font-size: 1.6rem;
-    color: lightgray;
-    width: 60%;
-    &:hover{
-        color: black;
-       }
-       &::after .business-Search-icon {
-     content: '';
-     top: 0;
-     right: 0;
-     transform: translateX(9rem);
-     }
-}
 .business-top .business-left-side .business-Search-bar .business-Search-icon a{
     margin-top: 1rem;
-}
-.business-top .business-left-side .business-Search-bar .business-Search-icon{
-    transform: translate( -4.4rem ,.3rem);
 }
 .business-top .business-left-side .business-Search-bar .business-Search-icon i{
    font-size: 2.7rem;

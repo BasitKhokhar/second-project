@@ -8,8 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public\css\style.css">
+    <link rel="stylesheet" href="public\css\aos.css">
     <link rel="icon" href="countries png\IU.png">
     <title>Data & IT</title>
+    <script src="public\js\aos.js"></script>
 </head>
 <style>
 </style>
@@ -26,25 +28,25 @@
                        <div class="top-list-data">
                            <ul>
                                <div class="bachelor-tooltip">
-                                   <li class="item1" ><span><a href="" class="hover-line1">BACHELOR</a></span><span><i class="bi bi-chevron-down"></i></span></li>
-                                       <div class="bachelor-tooltip-data">
+                                   <li class="item1"><span class="bachelortooltipdata" ><a href="#" class="hover-line1" id="bach-data-button">BACHELOR</a></span><span><i class="bi bi-chevron-down"></i></span>   <i class="bi bi-x-lg" id="closetopbar"></i></li>
+                                       <div class="bachelor-tooltip-data" id="bachelortooltip">
                                            <div class="one-1">
                                                <ul>
                                                    <li><a href="Data-&-it.html"><b>Data & IT</b></a></li>
                                                    <li><a href="#Applied Artificial Intelligence">Applied Artificial Intelligence</a></li>
-                                                   <li><a href="#Bussines & IT">Bussines & IT</a></li>
-                                                   <li><a href="#Computer Science">Computer Science</a></li>
-                                                   <li><a href="#Cyber Security">Cyber Security</a></li>
-                                                   <li><a href="#Data Science">Data Science</a></li>
-                                                   <li><a href="#Engineering">Engineering</a></li>
-                                                   <li><a href="#>Industrial Engineering & Managment">Industrial Engineering & Managment</a></li>
-                                                   <li><a href="#Robotics">Robotics</a></li>
-                                                   <li><a href="#Software Development">Software Development</a></li>
+                                                   <li><a href="">Bussines & IT</a></li>
+                                                   <li><a href="">Computer Science</a></li>
+                                                   <li><a href="">Cyber Security</a></li>
+                                                   <li><a href="">Data Science</a></li>
+                                                   <li><a href="">Engineering</a></li>
+                                                   <li><a href="">Industrial Engineering & Managment</a></li>
+                                                   <li><a href="">Robotics</a></li>
+                                                   <li><a href="">Software Development</a></li>
                                                </ul>
                                            </div>
                                            <div class="one-2">
                                                <ul>
-                                                   <li><a href=""><b>Bussines & Managment</b></a></li>
+                                                   <li><a href="Bussines-&-Managment.html"><b>Bussines & Managment</b></a></li>
                                                    <li><a href="">Aviation Managment</a></li>
                                                    <li><a href="">Bussines Adminstration</a></li>
                                                    <li><a href="">Digital Business</a></li>
@@ -56,13 +58,13 @@
                                            </div>
                                            <div class="one-3">
                                                <ul>
-                                                   <li><a href=""><b>Health & Social Care</b></a></li>
+                                                   <li><a href="Health-&-SocialCare.html"><b>Health & Social Care</b></a></li>
                                                    <li><a href="">International Healthcare Managment</a></li>
                                                </ul>
                                            </div>
                                            <div class="one-4">
                                                <ul>
-                                                   <li><a href=""><b>Psychology</b></a></li>
+                                                   <li><a href="Psychology.html"><b>Psychology</b></a></li>
                                                    <li><a href="">Applied Psychology</a></li>
                                                    <li><a href="">Industrial & Organizational Psychology</a></li>
                                                </ul>
@@ -70,8 +72,8 @@
                                        </div>
                                </div>
                                <div class="master-tooltip">
-                                   <li class="item1"><span><a href="" class="hover-line2">MASTER</a></span><span><i class="bi bi-chevron-down"></i></span></li>
-                                    <div class="master-tooltip-data">
+                                   <li class="item1"><span class="mastertooltipdata" ><a href="#" class="hover-line2" id="masterbutton">MASTER</a></span><span><i class="bi bi-chevron-down"></i></span></li>
+                                    <div class="master-tooltip-data" id="mastertooltip">
                                         <div class="one-1">
                                                <ul>
                                                    <li><a href=""><b>Data & IT</b></a></li>
@@ -119,8 +121,8 @@
                                     </div>
                                </div>
                                <div class="mba-tooltip">
-                                   <li class="item1"><span><a href="" class="hover-line3">MBA</a></span><span><i class="bi bi-chevron-down"></i></span></li>
-                                   <div class="mba-tooltip-data">
+                                   <li class="item1"><span class="mbatooltipdata"><a href="#" class="hover-line3" id="mbabutton">MBA</a></span><span><i class="bi bi-chevron-down"></i></span></li>
+                                   <div class="mba-tooltip-data" id="mbatooltip">
                                        <div class="one-1">
                                            <ul>
                                                <li><a href=""><b>General MBAs</b></a></li>
@@ -148,8 +150,8 @@
                                    </div>
                                </div>
                                <div class="about-tooltip">
-                               <li class="item1"><span><a href="" class="hover-line4">ABOUT</a></span><span><i class="bi bi-chevron-down"></i></span></li>
-                               <div class="about-tooltip-data">                               
+                               <li class="item1"><span class="about-tooltipdata"><a href="#" class="hover-line4" id="abouttooltip">ABOUT</a></span><span><i class="bi bi-chevron-down"></i></span></li>
+                               <div class="about-tooltip-data" id="abouttooltipdata">                               
                                        <div class="one-1">
                                            <ul>
                                                <li><a href=""><b>Why Study with Us</b></a></li>
@@ -196,8 +198,8 @@
                                    </div>                             
                                </div>
                                <div class="oncampus-tooltip">
-                               <li class="item1"><span><a href="" class="hover-line1">ON CAMPUS</a></span><span><i class="bi bi-chevron-down"></i></span></li>
-                               <div class="oncampus-tooltip-data">
+                               <li class="item1"><span class="oncampus-tooltipdata"><a href="#" class="hover-line1" id="oncampustooltip">ON CAMPUS</a></span><span><i class="bi bi-chevron-down"></i></span></li>
+                               <div class="oncampus-tooltip-data" id="oncampustooltipdata">
                                    <div class="one-1">
                                        <ul>
                                            <li><a href=""><b>Learning on campus-programmes</b></a></li>
@@ -228,8 +230,9 @@
                                </div>
                                <li class="item1"><a href=""><i class="bi bi-search"></i></a></li>
                            </ul>
-                       </div>
+                       </div>                   
                    </div>
+                 
                    <div class="top-buttons">
                        <div class="top-buttons-data">
                            <ul>
@@ -238,14 +241,21 @@
                            </ul>
                        </div>
                    </div>
+                   <div class="menu1" id="menu11">
+                       <div>
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                       </div>
+                     </div>
                 </div>
-            </div>
+               </div>
             <div class="Data-top">
                 <div class="left-side">
                     <div class="top-heading"><h1>Data & IT</h1></div>
                     <div class="Data-Search-bar">
-                        <span ><input type="text" name="text" value="What would you like to study?"></span>
-                        <span class="Data-Search-icon"><a href=""><i class="bi bi-search"></i></span>
+                        <span class="inputsearch"><input type="text" name="text" placeholder="What would you like to study?"></span>
+                        <span class="Data-Search-icon"><a href="#"><i class="bi bi-search"></i></span>
                     </div>
                 </div>
                 <div class="right-side">
@@ -457,5 +467,6 @@
             </div>
         </div>
     </div>
+    <script src="public\js\IU.js"></script>
 </body>
 </html>
