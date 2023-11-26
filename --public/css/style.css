@@ -35,7 +35,7 @@ body a {
 }
 
 .top-bar-data {
-  border: none;
+  border: 0.1rem solid brown;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -49,7 +49,7 @@ body a {
 .Top-bar .top-logo {
   display: inline-flex;
   gap: 0.2rem;
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   padding-left: 5rem;
 }
@@ -57,7 +57,7 @@ body a {
 .Top-bar .top-logo .logo-h1 h1 {
   font-size: 6.4rem;
   margin: 0;
-  border: none;
+  border: 0.1rem solid green;
 }
 
 .Top-bar .top-logo .logo-p p {
@@ -65,25 +65,17 @@ body a {
   line-height: 1;
   font-weight: 500;
   margin-top: 3.3rem;
-  border: none;
+  border: 0.1rem solid green;
 }
 
 .Top-bar .top-list {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
-  transition: 2s all ease;
-}
-
-.Top-bar #closetopbar {
-  font-size: 2rem;
   margin-top: 2rem;
 }
 
 .Top-bar .top-list ul {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -100,7 +92,7 @@ body a {
   display: inline-flex;
   gap: 1rem;
   background-color: white;
-  border: none;
+  border: 0.1rem solid black;
 }
 .Top-bar .top-list .top-list-data ul .item1:hover span {
   color: #4353ff;
@@ -144,7 +136,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .bachelor-tooltip:hover .bachelor-tooltip-data {
   display: flex;
@@ -158,7 +150,7 @@ body a {
   width: 130rem;
   transform: translateX(-25rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid red;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -244,7 +236,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .master-tooltip:hover .master-tooltip-data {
   display: flex;
@@ -258,7 +250,7 @@ body a {
   width: 130rem;
   transform: translateX(-37.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -358,7 +350,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .mba-tooltip:hover .mba-tooltip-data {
   display: flex;
@@ -373,7 +365,7 @@ body a {
   width: 130rem;
   transform: translateX(-48.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -430,7 +422,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .about-tooltip:hover .about-tooltip-data {
   display: flex;
@@ -445,7 +437,7 @@ body a {
   width: 130rem;
   transform: translateX(-57.3rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -461,7 +453,7 @@ body a {
   display: inline-block;
   position: relative;
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
 }
 .Top-bar .top-list .top-list-data ul .oncampus-tooltip:hover .oncampus-tooltip-data {
   display: flex;
@@ -476,7 +468,7 @@ body a {
   width: 130rem;
   transform: translateX(-67.7rem);
   margin: 0;
-  border: none;
+  border: 0.1rem solid aqua;
   border-radius: 1rem;
   background-color: white;
   display: none;
@@ -498,7 +490,7 @@ body a {
 }
 
 .Top-bar .top-buttons {
-  border: none;
+  border: 0.1rem solid black;
   box-sizing: border-box;
   margin-top: 2.2rem;
 }
@@ -538,72 +530,16 @@ body a {
   opacity: 0.7;
 }
 
-.menu1 {
-  display: none;
-  margin-top: 0.2rem;
-  padding-right: 2rem;
-}
-
-.menu-display {
-  transform: translateY(-14rem);
-}
-
-.menu1 div, .menu2 div, .menu3 div {
-  width: 4rem;
-  height: 4rem;
-  background-color: lightgray;
-  border-radius: 5rem;
-  margin: auto;
-  position: relative;
-}
-
-.menu1 span, .menu2 span {
-  position: absolute;
-  background-color: black;
-  width: 50%;
-  height: 0.2rem;
-  border-radius: 0.5rem;
-  display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s;
-}
-
-.menu1 div .line1, .menu2 div .line1 {
-  transform: translate(-50%, -0.7rem);
-}
-
-.menu1 div .line2, .menu2 div .line2 {
-  transform: translate(-50%, -50%);
-}
-
-.menu1 div .line3, .menu2 div .line3 {
-  transform: translate(-50%, 0.5rem);
-}
-
-.openmenu1 div .line1 {
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-.openmenu1 div .line3 {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.openmenu1 div .line2 {
-  width: 0rem;
-}
-
 .top-images {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
   padding-top: 10rem;
   padding-bottom: 0;
 }
 
 .top-images .top-images-data {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -632,7 +568,7 @@ body a {
 
 .top-images .top-images-data .image-1 .top-images-container1 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: inline-block;
   text-align: right;
   transform: translate(47rem, -18rem);
@@ -679,7 +615,7 @@ body a {
 
 .top-images .top-images-data .image-2 .top-images-container2 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: inline-block;
   text-align: left;
   transform: translate(2rem, -18rem);
@@ -713,7 +649,7 @@ body a {
 
 .body-part1 .body-part1-container {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -754,7 +690,7 @@ body a {
 
 .body-part2 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part2 .body-part2-container {
@@ -762,7 +698,7 @@ body a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: none;
+  border: 0.1rem solid brown;
   padding: 2rem 5rem;
 }
 
@@ -772,7 +708,7 @@ body a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part2 .body-part2-container .body-part2-item1 .body-part2-item1-icon {
@@ -844,7 +780,7 @@ body a {
   box-sizing: border-box;
   margin: 0 5rem;
   background-color: rgb(245, 244, 243);
-  border: none;
+  border: 0.1rem solid black;
   padding-bottom: 5rem;
 }
 
@@ -852,7 +788,7 @@ body a {
   box-sizing: border-box;
   border: 0.1rem solid white;
   position: relative;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part5 .body-part5-container .tab input[type=radio] {
@@ -896,7 +832,7 @@ body a {
   display: none;
   box-sizing: border-box;
   margin-top: 3rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .tab #checkbox1:checked ~ #checkbox11,
@@ -1027,7 +963,7 @@ body a {
   color: white;
   font-weight: 600;
   font-size: 1.6rem;
-  border: none;
+  border: 0.2rem solid #4353ff;
 }
 .body-part5 .tab .tab-button button:hover {
   opacity: 0.7;
@@ -1046,12 +982,12 @@ body a {
 
 .body-part6 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container {
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-top-heading h1 {
@@ -1066,14 +1002,14 @@ body a {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards .flex1-cards-container {
@@ -1100,7 +1036,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-image img {
   width: 100%;
   margin: 0;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex1 .flex1-cards-p p {
@@ -1120,7 +1056,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex2 .body-part6-flex2-left {
   width: 200%;
   margin-left: 0 10rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part6 .body-part6-container .body-part6-flex2 .body-part6-flex2-left img {
@@ -1158,7 +1094,7 @@ body a {
   flex-direction: row;
   margin: 0 5rem;
   gap: 5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards {
@@ -1197,7 +1133,7 @@ body a {
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards .flex1-cards-container .flex1-cards-list ul {
   margin: 0;
   padding-left: 2.5rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part6 .body-part6-container .body-part6-flex3 .flex1-cards .flex1-cards-container .flex1-cards-list ul li p {
@@ -1230,7 +1166,7 @@ body a {
   box-sizing: border-box;
   margin: 0 5rem;
   background-color: rgb(245, 244, 243);
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part7 .body-part7-container .body-part7-heading1 h1 {
@@ -1252,7 +1188,7 @@ body a {
 
 .body-part7 .body-part7-container .body-part7-form form .form-row1 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -1339,14 +1275,14 @@ body a {
 
 .body-part8 {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid black;
   background-color: rgb(255, 220, 176);
 }
 
 .body-part8 .body-part8-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid black;
   padding: 5rem 0;
 }
 
@@ -1386,7 +1322,7 @@ body a {
   gap: 1rem;
   margin: 0rem 5rem;
   margin-bottom: 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part8 .body-part8-container .body-part8-cards .body-part8-card-footer .footer-image img {
@@ -1440,7 +1376,7 @@ body a {
 .body-part9 .body-part9-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-top-heading h1 {
@@ -1458,7 +1394,7 @@ body a {
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-left {
   width: 200%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-left img {
@@ -1467,7 +1403,7 @@ body a {
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-right {
   padding: 0 4rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part9 .body-part9-container .body-part9-flex1 .body-part9-flex1-right h1 {
@@ -1501,7 +1437,7 @@ body a {
 .body-part10 .body-part10-container {
   box-sizing: border-box;
   margin: 5rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 {
@@ -1513,7 +1449,7 @@ body a {
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-left {
   width: 200%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-left video {
@@ -1525,7 +1461,7 @@ body a {
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-right {
   padding: 0 3rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part10 .body-part10-container .body-part10-flex1 .body-part10-flex1-right h1 {
@@ -1560,7 +1496,7 @@ body a {
 .body-part11 .body-part11-container {
   box-sizing: border-box;
   margin: 3rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 {
@@ -1572,7 +1508,7 @@ body a {
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left {
   width: 150%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-left img {
@@ -1583,7 +1519,7 @@ body a {
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-right {
   padding: 0 3rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part11 .body-part11-container .body-part11-flex1 .body-part11-flex1-right h1 {
@@ -1619,7 +1555,7 @@ body a {
 .body-part12 .body-part12-container {
   box-sizing: border-box;
   margin: 3rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 {
@@ -1631,7 +1567,7 @@ body a {
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left {
   width: 250%;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-left img {
@@ -1641,7 +1577,7 @@ body a {
 }
 
 .body-part12 .body-part12-container .body-part12-flex1 .body-part12-flex1-right {
-  border: none;
+  border: 0.1rem solid black;
   padding: 0 4rem;
 }
 
@@ -1659,12 +1595,12 @@ body a {
 .body-part13 .body-part13-container {
   box-sizing: border-box;
   margin: 6rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part13 .body-part13-container .body-part13-cards {
   box-sizing: border-box;
-  border: none;
+  border: 0.1rem solid blue;
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -1747,7 +1683,7 @@ body a {
 .body-part14 .body-part14-container {
   box-sizing: border-box;
   margin: 4rem 5rem;
-  border: none;
+  border: 0.1rem solid black;
   background-color: rgb(245, 244, 243);
   border-radius: 2rem;
 }
@@ -1757,12 +1693,12 @@ body a {
   display: flex;
   flex-direction: row;
   gap: 0.1rem;
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-left {
   width: 35%;
-  border: none;
+  border: 0.1rem solid black;
   border-radius: 2rem;
   box-sizing: border-box;
 }
@@ -1780,7 +1716,7 @@ body a {
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right {
   box-sizing: border-box;
   width: 64%;
-  border: none;
+  border: 0.1rem solid black;
   border-radius: 2rem;
   padding: 0 5rem;
 }
@@ -1813,7 +1749,7 @@ body a {
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right .body-part14-line1 .line1-data {
   display: inline-flex;
   gap: 1rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-right .body-part14-line1 .line1-data span i {
@@ -1830,7 +1766,7 @@ body a {
 .body-part14-line2 .line2-data {
   display: inline-flex;
   gap: 1rem;
-  border: none;
+  border: 0.1rem solid black;
   margin: 2rem 0;
 }
 
@@ -1851,7 +1787,7 @@ body a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14-line3 .line3-data .line3-data-left {
@@ -1863,7 +1799,7 @@ body a {
   margin-top: 0.2rem;
   font-size: 1.6rem;
   padding-top: 0.4rem;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .body-part14-line3 .line3-data span h2 {
@@ -1875,7 +1811,7 @@ body a {
   display: inline-flex;
   gap: 1rem;
   margin-top: 0;
-  border: none;
+  border: 0.1rem solid black;
   transform: translateY(-0.4rem);
 }
 
@@ -1899,7 +1835,7 @@ body a {
 .footer-container {
   box-sizing: border-box;
   margin: 0 5rem;
-  border: none;
+  border: 0.1rem solid white;
   padding: 4rem 0;
 }
 
@@ -1915,23 +1851,22 @@ body a {
 .footer .footer-upper-part .footer-upper-item1 ul {
   list-style: none;
   padding-left: none;
-  border: none;
+  border: 0.1rem solid black;
 }
 
 .footer .footer-upper-part .footer-upper-item1 ul li {
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-upper-part .footer-upper-item1 ul li h1 {
   color: white;
   border-bottom: 0.1rem solid white;
   margin: 0;
-  display: inline;
 }
 
 .footer .footer-upper-part .footer-upper-item1 ul li p {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   border-bottom: 0.1rem solid white;
   margin: 0;
   margin-top: 1.5rem;
@@ -1947,16 +1882,17 @@ body a {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .footer .footer-lower-part .footer-lower-part-left ul {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   gap: 3rem;
   margin-top: 0;
   padding-top: 0;
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-lower-part .footer-lower-part-left ul li p {
@@ -1968,12 +1904,12 @@ body a {
 
 .footer .footer-lower-part .footer-lower-part-right ul {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   gap: 3rem;
   margin-top: 0;
   padding-top: 0;
   padding-right: 10rem;
-  border: none;
+  border: 0.1rem solid white;
 }
 
 .footer .footer-lower-part .footer-lower-part-right ul li i {
@@ -2029,7 +1965,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(227, 236, 240);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .Data-top .left-side .top-heading,
@@ -2494,7 +2430,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(255, 248, 239);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .health-top .health-left-side .health-top-heading h1 {
@@ -2540,7 +2476,7 @@ body a {
   width: 59%;
   margin-left: 4rem;
   background-color: rgb(255, 240, 242);
-  border: none;
+  border: 0.1rem solid brown;
 }
 
 .psy-top .psy-left-side .psy-top-heading h1 {
@@ -2586,28 +2522,6 @@ body a {
 @media only screen and (max-width: 1182px) {
   .Top-bar .top-buttons {
     display: none;
-  }
-  .Top-bar .top-list {
-    display: none;
-    transform: translate(-12rem, 0rem);
-    flex-direction: row;
-    width: 150%;
-    background-color: white;
-  }
-  .Top-bar .top-list ul {
-    flex-direction: column;
-  }
-  .menu1 {
-    display: flex;
-    position: fixed;
-    top: 2.5rem;
-    right: 0rem;
-  }
-  .Top-bar #closetopbar {
-    display: inline;
-    position: fixed;
-    top: 1rem;
-    right: -3rem;
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -2687,50 +2601,26 @@ body a {
   }
 }
 @media only screen and (max-width: 825px) {
+  .top-bar-data {
+    flex-direction: column;
+    align-items: center;
+  }
   .Top-bar .top-list {
     margin-top: 0;
   }
 }
-@media only screen and (max-width: 580px) {
-  .footer-container {
-    margin: 0 2rem;
+@media only screen and (max-width: 675px) {
+  .Top-bar .top-list ul {
+    gap: 0.5rem;
   }
-  .footer .footer-upper-part {
-    flex-direction: column;
-  }
-  .footer .footer-lower-part {
-    flex-direction: column;
-    row-gap: 1rem;
+  .Top-bar .top-list .top-list-data ul .item1 span a,
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 500px) {
-  .footer-container {
-    margin: 0rem;
-  }
-  .body-part14 .body-part14-container {
-    margin: 0rem;
-  }
-  .body-part13 .body-part13-container,
-  .body-part12 .body-part12-container,
-  .body-part11 .body-part11-container,
-  .body-part10 .body-part10-container {
-    margin: 2rem;
-  }
-  .body-part9 .body-part9-container,
-  .body-part8 .body-part8-container,
-  .body-part7 .body-part7-container,
-  .body-part6 .body-part6-container,
-  .body-part5 .body-part5-container {
-    margin: 0 2rem;
-  }
-  .body-part2 .body-part2-container {
-    padding: 2rem 2rem;
-  }
-  .body-part1 {
-    padding: 4rem;
-  }
-  .body-part1 .body-part1-container {
-    padding: 2rem 2rem;
+@media only screen and (max-width: 580px) {
+  .Top-bar .top-list .top-list-data ul .item1 {
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 420px) {

@@ -47,7 +47,7 @@ body a{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     position: fixed;
     z-index: 1;
     background-color: white;
@@ -76,6 +76,15 @@ body a{
     @include  primaryborder (black,.1rem);
     box-sizing: border-box;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    transition: 2s all ease;
+}
+.Top-bar  #closetopbar{
+    font-size: 2rem;
+    margin-top: 2rem;
+    // display: none;
+
 }
 .Top-bar .top-list ul{
     @include  primaryborder (black,.1rem);
@@ -150,6 +159,7 @@ body a{
     flex-direction: row;
     justify-content: space-evenly;
     width: 130rem;
+    // height: 60vh;
     transform: translateX(-25rem);
     margin: 0;
     @include  primaryborder (red,.1rem);
@@ -157,7 +167,20 @@ body a{
     background-color: white;
     display: none;
     padding: 3rem 0;
-    overflow-y: auto;
+    // overflow-y: auto;
+    // &::-webkit-scrollbar{
+    //     width: 1rem;
+    // }
+    // &::-webkit-scrollbar-thumb{
+    //     background-color: transparent;
+    //     border-radius: 1rem;
+    //     &:hover{
+    //         background-color: black;
+    //     }
+    // }
+}
+.bachelor-tooltip-display{
+    display: flex !important;
 }
 .Top-bar .top-list .top-list-data ul .bachelor-tooltip .bachelor-tooltip-data .one-1 ul{
     list-style: none;
@@ -469,7 +492,7 @@ body a{
     }
     .Top-bar .top-list .top-list-data ul .item1 a i{
         font-size: 2.0rem;
-        margin: 0;
+        margin-top: 0;
         padding: 0;
         color: black;
         &:hover{
@@ -507,6 +530,53 @@ body a{
         opacity: .7;
     }
  }
+//  top three lines css //
+.menu1{
+    display:none;
+    margin-top: .2rem;
+    padding-right: 2rem;
+   }
+   .menu-display{
+    transform: translateY(-14rem);
+   }
+   .menu1 div,.menu2 div,.menu3 div{
+      width: 4rem;
+      height: 4rem;
+      background-color: lightgray;
+      border-radius: 5rem;
+      margin: auto;
+      position: relative;
+   }
+   .menu1 span,.menu2 span{
+       position: absolute;
+       background-color:black;
+       width: 50%;
+       height: .2rem;
+       border-radius: .5rem;
+       display: block;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50% );
+       transition: .5s;
+   }
+   .menu1 div .line1,.menu2 div .line1{
+       transform: translate(-50%,-.7rem);
+   }
+   .menu1 div .line2,.menu2 div .line2{
+       transform: translate(-50%,-50%);
+   }
+   .menu1 div .line3,.menu2 div .line3{
+       transform: translate(-50%,.5rem);
+   }
+   .openmenu1 div .line1{
+       transform: translate(-50%,-50%) rotate(-45deg) ;
+   }
+   .openmenu1 div .line3{
+       transform: translate(-50%,-50%) rotate(45deg);
+   }
+   .openmenu1 div .line2{
+       width: 0rem;
+   }
 //  top images //
 .top-images{
     box-sizing: border-box;
@@ -638,7 +708,7 @@ body a{
  }
 .body-part1 .body-part1-container .right-side button{
     @include primarybutton (1.5rem 2.5rem,.5rem,1.6rem,$buttonbg,white);
-   margin:7rem 5rem ;
+   margin:7rem 5rem;
    border: none;
    &:hover{
     opacity: .7;
@@ -1542,7 +1612,7 @@ body a{
 }
 .body-part14 .body-part14-container .body-part14-flex .body-part14-flex-left img{
     width: 100%;
-    height: 100%;
+    // height: 100%;
     border-radius: 2rem;
     background-color: rgb(245 244 243); 
 }
@@ -1675,10 +1745,11 @@ background-color: black;
    color: white;
    border-bottom:.1rem solid white ;
    margin: 0;
+   display: inline;
 }
 .footer .footer-upper-part .footer-upper-item1 ul li p{
    color: white;
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    border-bottom:.1rem solid white ;
    margin: 0;
    margin-top: 1.5rem;
@@ -1692,14 +1763,14 @@ background-color: black;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-between;
 
 }
 .footer .footer-lower-part .footer-lower-part-left ul
 {
     list-style: none;
-    display:inline-flex;   
+    display:flex;   
     gap: 3rem;
     margin-top: 0;
     padding-top: 0;
@@ -1713,7 +1784,7 @@ background-color: black;
  }
  .footer .footer-lower-part .footer-lower-part-right ul{
     list-style: none;
-    display: inline-flex;
+    display: flex;
     gap: 3rem;
     margin-top: 0;
     padding-top: 0;
