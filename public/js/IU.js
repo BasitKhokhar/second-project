@@ -97,12 +97,37 @@ var topbarbutton=document.querySelector('.menu1');
 var topbardata=document.querySelector('.top-list');
 var closetopbar=document.getElementById('closetopbar');
 topbarbutton.addEventListener('click',function(){
-    topbardata.style.display='block' //&& topbarbutton.style.display=='none';
+    if(topbardata.style.display === 'flex'){
+         topbardata.style.display='none';
+    }
+    else{
+        topbardata.style.display='flex';
+    }
+    // topbardata.style.display='flex';
+    topbarbutton.classList.toggle('openmenu1');
+     //&& topbarbutton.style.display=='none';
 });
 // topbarbutton.addEventListener('click',function(){
 //     topbarbutton.classList.add('menu-display');
 // });
-closetopbar.addEventListener('click',function(){
-    topbardata.style.display='none' //&& topbarbutton.style.display=='block';
+// closetopbar.addEventListener('click',function(){
+//     topbardata.style.display='none' //&& topbarbutton.style.display=='block';
+// });
+var displaysearchbar=document.getElementById("searchbar11");
+var searchbardata=document.getElementById('searchbarrow1');
+displaysearchbar.addEventListener('click',function(){
+    if(searchbardata.style.display === 'flex'){
+        searchbardata.style.display='none';
+   }
+   else{
+       searchbardata.style.display='flex';
+   }
 });
 
+   
+   
+
+function closesearchbarrow(){
+    var btn1=document.getElementById("search");
+    btn1.classList.remove('display-tooltip-data');
+}

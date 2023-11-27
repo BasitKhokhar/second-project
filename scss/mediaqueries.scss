@@ -22,18 +22,19 @@
         display: none;
         transform: translate(-13rem,0rem);
         flex-direction: row;
-        width: 150%;
+        width: 100%;
         background-color: white;
     }
     .Top-bar .top-list ul{
         flex-direction: column;
+        width: 20rem;
     }
     .menu1{
         display: flex;
         position: fixed;
         top: 2.5rem;
         right: 0rem;
-       z-index: 1;
+        z-index: 1;
     }
     .Top-bar  #closetopbar{
         display: inline;

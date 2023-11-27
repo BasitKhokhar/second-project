@@ -77,6 +77,10 @@ body a {
   transition: 2s all ease;
 }
 
+.toplist-display {
+  display: flex;
+}
+
 .Top-bar #closetopbar {
   font-size: 2rem;
   margin-top: 2rem;
@@ -489,14 +493,39 @@ body a {
   opacity: 0.7;
 }
 
-.Top-bar .top-list .top-list-data ul .item1 a i {
+.Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > a > i {
   font-size: 2rem;
   margin-top: 0;
   padding: 0;
   color: black;
+  position: relative;
 }
-.Top-bar .top-list .top-list-data ul .item1 a i:hover {
+.Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > a > i:hover {
   color: #4353ff;
+}
+
+.Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: 0.1rem solid green;
+  position: absolute;
+  width: 50%;
+  left: 18%;
+  display: none;
+}
+
+.searchbar-row-display {
+  display: flex;
+}
+
+.Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > input[type=search] {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > i {
+  font-size: 2rem;
 }
 
 .Top-bar .top-buttons {
@@ -594,6 +623,10 @@ body a {
 
 .openmenu1 div .line2 {
   width: 0rem;
+}
+
+.openmenu1 div, .menu2 div, .menu3 div {
+  background-color: transparent;
 }
 
 .top-images {
@@ -2559,11 +2592,12 @@ body a {
     display: none;
     transform: translate(-13rem, 0rem);
     flex-direction: row;
-    width: 150%;
+    width: 100%;
     background-color: white;
   }
   .Top-bar .top-list ul {
     flex-direction: column;
+    width: 20rem;
   }
   .menu1 {
     display: flex;

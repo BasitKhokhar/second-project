@@ -79,7 +79,10 @@ body a{
     flex-direction: row;
     transition: 2s all ease;
 }
-.Top-bar  #closetopbar{
+.toplist-display{
+    display: flex;
+}
+.Top-bar #closetopbar{
     font-size: 2rem;
     margin-top: 2rem;
     display: none;
@@ -489,7 +492,8 @@ body a{
             opacity: .7;
         }
     }
-    .Top-bar .top-list .top-list-data ul .item1 a i{
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > a > i
+    {
         font-size: 2.0rem;
         margin-top: 0;
         padding: 0;
@@ -497,8 +501,28 @@ body a{
         &:hover{
         color: #4353ff;
        }
+       position: relative;
     }   
-
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row{
+       display: flex;
+       flex-direction: row;
+       gap: 1rem;
+       border: .1rem solid green;
+       position: absolute;
+       width: 50%;
+       left: 18%;
+       display: none;
+    }
+    .searchbar-row-display{
+        display: flex;
+    }
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > input[type=search]{
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+    }
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row  > i{
+        font-size: 2rem;
+    }
    // topbar buttons //
 .Top-bar .top-buttons{
     @include  primaryborder (black,.1rem);
@@ -576,6 +600,9 @@ body a{
    .openmenu1 div .line2{
        width: 0rem;
    }
+   .openmenu1 div,.menu2 div,.menu3 div{
+    background-color: transparent;
+ }
 //  top images //
 .top-images{
     box-sizing: border-box;
