@@ -505,6 +505,8 @@ body a {
 }
 
 .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row {
+  z-index: 20;
+  background-color: white;
   display: none;
 }
 
@@ -516,7 +518,7 @@ body a {
   gap: 1rem;
   border: 0.1rem solid lightgray;
   position: absolute;
-  width: 54%;
+  width: 52%;
   left: 15%;
   top: 35%;
 }
@@ -2598,9 +2600,10 @@ body a {
 @media only screen and (max-width: 1182px) {
   .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > .searchbar-row-inner {
     width: 90%;
-    left: 15%;
+    left: 12%;
     top: 84%;
     border-radius: 0.5rem;
+    border: 0.1rem solid lightgray;
   }
   .Top-bar .top-buttons {
     display: none;
