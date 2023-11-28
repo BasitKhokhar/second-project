@@ -1,5 +1,9 @@
 AOS.init();
 
+// searcicon display JS //
+var searchicon0=document.getElementById('')
+
+
 // bachelor tooltip data JS//
 var bachelorbutton=document.querySelector(".bachelortooltipdata");
 var bachelordata=document.querySelector(".bachelor-tooltip-data");
@@ -123,7 +127,15 @@ displaysearchbar.addEventListener('click',function(){
        searchbardata.style.display='flex';
    }
 });
-
+var closesearchdata=document.getElementById('closesearchicon');
+closesearchdata.addEventListener('click',function(){
+    if(searchbardata.style.display === 'none'){
+        searchbardata.style.display='flex';
+   }
+   else{
+       searchbardata.style.display='none';
+   }
+})
    
    
 

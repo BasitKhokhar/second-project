@@ -15,6 +15,12 @@
 }
 
 @media only screen and (max-width:1182px) {
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > .searchbar-row-inner{
+        width: 90%;
+        left: 15%;
+        top: 84%;
+        border-radius: .5rem;
+    }
     .Top-bar .top-buttons{
         display: none;
     }

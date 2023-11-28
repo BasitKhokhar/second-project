@@ -504,24 +504,38 @@ body a{
        position: relative;
     }   
     .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row{
-       display: flex;
-       flex-direction: row;
-       gap: 1rem;
-       border: .1rem solid green;
-       position: absolute;
-       width: 50%;
-       left: 18%;
-       display: none;
+    
+    //    background-color: white;
+    //    display: ;
+    display: none;
+    }
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > .searchbar-row-inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 1rem;
+        gap: 1rem;
+        border: .1rem solid lightgray;
+        position: absolute;
+        width: 54%;
+        left: 15%;
+        top: 35%;
     }
     .searchbar-row-display{
         display: flex;
+
     }
-    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > input[type=search]{
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > .searchbar-row-inner > input[type=text]{
         font-size: 1.5rem;
         padding: .5rem 1rem;
+        width: 95%;
+        padding: 1rem 1rem;
+        border: none;
+        outline: none;
     }
-    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row  > i{
+    .Top-bar > .top-bar-data > .top-list > .top-list-data > ul > .item1 > .searchbar-row > .searchbar-row-inner i{
         font-size: 2rem;
+        margin-top: .6rem;
     }
    // topbar buttons //
 .Top-bar .top-buttons{
