@@ -1325,6 +1325,7 @@ body a {
   width: 97.5%;
   height: 4.6rem;
   border-radius: 1rem;
+  background-color: rgb(245, 244, 243);
   border: 0.05rem solid gray;
   padding-left: 1rem;
 }
